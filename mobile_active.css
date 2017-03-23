@@ -1,0 +1,907 @@
+
+/*@font-face {
+    font-family: PingFang;
+    src: url(../font/PingFang%20Regular.ttf);
+}*/
+body{
+    overflow-x: visible;
+    font-size: 62.5%;
+   /* font-family: "PingFang";*/
+}
+.content{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: white;
+    font-size: 1.4rem;
+}
+.swiper-container {
+    width: 100%;
+    height: 15.1rem;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #ffffff;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #7AC69D;
+}
+
+.mobile-img{
+    width: 100%;
+    height: 15.1rem;
+}
+.mobile-msg{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    border-bottom: 4px solid #ECECEC;
+}
+.mobile-msg p{
+    width: 96%;
+    margin-left: 2%;
+    text-indent: 2em;
+    color: #696969;
+}
+.mobile-notice{
+    width: 100%;
+    height: auto;
+}
+.mobile-notice li{
+    width: 100%;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid #ECECEC;
+    overflow: hidden;
+    color: #696969;
+}
+.mobile-leng{
+    width: 0.4rem;
+    height: 1.5rem;
+    background-color: #7AC69D;
+    float: left;
+    margin-left: 2%;
+}
+
+/*--------------------------*/
+.mobile-notice p{
+    /*width: 92%;*/
+    float: left;
+    margin-left: 2%;
+    line-height: 1.7rem;
+}
+.mobile-notice .span-small{
+    /*font-size: 0.6rem;*/
+}
+.span-block{
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+.mobile-notice .li-p{
+    min-width: 3.5rem;
+}
+/*.mobile-notice .li-p2{*/
+    /*min-width: 4rem;*/
+/*}*/
+
+
+.mobile-title{
+    width: 58%;
+    height: auto;
+    float: left;
+}
+
+/*.mobile-title2{*/
+    /*width: 68%;*/
+    /*height: auto;*/
+    /*float: left;*/
+/*}*/
+
+/*------------------------------------------------*/
+.mobile-notice b{
+    font-size: 1.4rem;
+    color: #333333;
+}
+.mobile-title div{
+    display: inline-block;
+    padding-right: 0.3rem;
+}
+.mobile-select{
+    width:100%;
+    height: auto;
+    padding-top: 1.5rem;
+    color: #333333;
+}
+.mobile-select p{
+   text-align: center;
+    font-size: 1.4rem;
+}
+.mobile-icon{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    background-color: #F4F7F8;
+    overflow: hidden;
+}
+.active-new{
+    font-size: 1.4rem;
+}
+.mobile-wrap{
+    width: 15%;
+    height: auto;
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 1%;
+    overflow: hidden;
+}
+.mobile-circle{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #3fb8a6;
+    border-radius:100%;
+}
+.mobile-wrap p{
+    margin-top: 0.2rem;
+    text-align: center;
+    font-size: 1rem;
+}
+.mobile-footer{
+    width: 100%;
+    height: 5rem;
+    background-color: #7AC69D;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+}
+.mobile-line{
+    line-height: 5rem;
+}
+.mobile-footer .span{
+    cursor: pointer;
+    color: white;
+    font-size: 1.4rem;
+}
+.footer-ul li{
+    display: inline-block;
+    height: auto;
+    margin-left: 3%;
+    text-align: center;
+}
+.footer-ul li a{
+    color: #ffffff;
+}
+.mypro-margin{
+    margin-top: 0.5rem;
+}
+
+.mobile-pic{
+     width: 1.2rem;
+     height: auto;
+ }
+.mobile-pic2{
+    width: 2.2rem;
+    height: auto;
+}
+.mobile-pic3{
+    width: 1.8rem;
+    height: auto;
+}
+.footer-ul li p{
+    text-align: center;
+    line-height: 2rem;
+}
+.footer-ul .mobile-li{
+    margin-left:1rem;
+}
+
+/*
+   作品详情 detail css
+*/
+.detail-product{
+    width: 96%;
+    height: auto;
+    padding-top: 1rem;
+    margin-left: 2%;
+    color: #333333;
+    position: relative;
+    clear: both;
+}
+.detail-padding{
+    padding-bottom: 0.5rem;
+}
+.detail-word{
+    color: #696969;
+}
+.detail-img{
+    width: 100%;
+    height: 6rem;
+    margin-top: 1rem;
+}
+.detail-left{
+    margin-top: 1rem;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.detail-auto{
+    width: 3rem;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.detail-logo{
+    width: 2.2rem;
+    height:2.2rem;
+    margin-bottom: 0.2rem;
+}
+.s-white{
+    color: white;
+    font-size: 1rem;
+}
+.mobile-margin{
+    margin-top: 0.7rem;
+    text-align: justify;
+}
+.detail-num{
+    width: 6.5rem;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top:0.4rem;
+}
+.detail-product .detail-img:first-child{
+    margin-top: 0;
+}
+/*
+   vote 投票详情
+*/
+.vote-content{
+    padding-left: 2%;
+    background-color: #F4F7F8;
+    padding-top: 1rem;
+    font-size: 1.4rem;
+}
+.vote-num{
+    width: 100%;
+    height: auto;
+    color: #333333;
+    font-size: 1.2rem;
+}
+.vote-img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.vote-msg{
+    width: 23%;
+    height: auto;
+    margin-top: 1rem;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+}
+/* 20161129修改 投票详情里面头像比例问题 */
+.vote-icon{
+    width: 100%;
+    /*height: 7.1rem;*/
+    min-height: 7.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.vote-pic{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+/*
+  mypro 我的作品
+*/
+
+.mypro-f{
+    color: #333333;
+    font-size: 1.6rem;
+}
+.mypro-word{
+    margin-top: 0.2rem;
+    color: #696969;
+}
+.detail-product .mypro-img:first-child{
+    margin-left: 0;
+}
+
+.mypro-pic{
+    float: left;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.mypro-img{
+    width: 100%;
+    height: auto;
+
+}
+/*====================================*/
+.mypro-top{
+    padding-bottom: 1rem;
+}
+.mypro-top2{
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    border-top: 5px solid #ECECEC;
+}
+/*=========================================*/
+.mypro-trash{
+    display: block;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+.mypro-icon{
+    color: #FFFFFF;
+    /*font-size: 22px;*/
+}
+.mypro-file{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    opacity: 0;
+}
+.mypro-center{
+    width: 6rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*
+  none css
+*/
+.none-content{
+    width: 100%;
+    background: url("../images/bgc.png");
+    background-size: cover;
+    font-size: 1.4rem;
+}
+.none-msg{
+    width: 92%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 9rem;
+
+}
+.none-h{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.none-p{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #696969;
+}
+
+
+/*
+   mobile-upload css
+ */
+
+.upload-content{
+    width: 100%;
+    height: auto;
+    background-color: #F4F7F8;
+    /*font-size: 0.6rem;*/
+    color: #333333;
+    font-size: 1.4rem;
+}
+.upload-tip{
+    width: 96%;
+    margin-left: 2%;
+    padding: 2rem 0;
+    background-color: #F4F7F8 ;
+}
+.upload-ul{
+    background-color: #FFFFFF;
+}
+.upload-ul li{
+    border-bottom: 1px solid #F4F7F8;
+    padding: 2rem 0;
+    overflow: hidden;
+}
+.upload-p{
+    width: 70%;
+    margin-left: 2%;
+    float: left;
+}
+.upload-img{
+    width: 0.8rem;
+    height: auto;
+    float: right;
+    margin-right: 2%;
+}
+.upload-picture{
+    width: 100%;
+    height: auto;
+    margin-top: 0.7rem;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding-bottom: 0.6rem;
+}
+.upload-icon{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 1rem;
+}
+/*.upload-p2{*/
+    /*/!*margin-bottom: 0.2rem;*!/*/
+    /*padding-top: 0.6rem;*/
+/*}*/
+.upload-add{
+    position: relative;
+}
+.upload-file{
+    width: 9.2rem;
+    height: 9.2rem;
+    position: relative;
+    margin-right: 0.8rem;
+    float: left;
+    margin-top: 0.8rem;
+}
+.upload-images{
+    width: 100%;
+    height: 100%;
+}
+.upload-inp{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    top:0;
+}
+
+/*瀑布流*/   /* 20161129 作品详情图片居中，注释下面的样式*/
+/*#dcontainer {
+    width: 100%;
+}*/
+/*#dcontainer .pin {
+    width: 25rem;
+    margin: 0 auto;
+
+}*/
+#dcontainer .div-box {
+    float: left;
+}
+#dcontainer .div-box img {
+    width: 25rem;
+    height: auto;
+    margin-bottom: 15px;
+}
+#dcontainer .div-box p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+/*
+   success css
+*/
+.success-content{
+    width: 100%;
+    background-color: #F4F7F8;
+    font-size: 1.7rem;
+}
+.success-img{
+    width: 23%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 15rem;
+    color:#7AC69D ;
+}
+.success-h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2.6rem;
+}
+.success-btn{
+    width: 90%;
+    height: 40px;
+    background-color: #7AC69D;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    margin: 30px auto;
+    border-radius: 10px 10px;
+}
+
+/*
+  vote css
+*/
+.vote2-btn{
+    width: 96%;
+    height: 40px;
+    background-color: #7AC69D;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    line-height: 40px;
+    margin: 0 auto;
+    border-radius: 5px 5px;
+    margin-bottom: 1rem;
+}
+
+
+/*all css*/
+/*----------------------------------------------------*/
+.all-left{
+    width: 7rem;
+    height:3.7rem;
+    background-color:#7AC69D;
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 1.4rem;
+    /*padding-left: 1%;*/
+    line-height: 3.5rem;
+    position: relative;
+    z-index: 5;
+}
+.all-a{
+    width: 5rem;
+    display: block;
+    height: 2.7rem;
+    border-radius: 2rem 2rem;
+    border: 1px solid #ffffff;
+    line-height: 2.7rem;
+    margin-top: 0.5rem;
+    margin-left: 0.9rem;
+    font-size: 1.6rem;
+}
+.all-shadow{
+    box-shadow: 1px -1px 2px #696969;
+}
+.all-active2{
+    border-bottom: 2px solid #ffffff;
+}
+.all-active3{
+    padding-bottom: 0.7rem;
+    border-bottom: 2px solid #ffffff;
+}
+.all-bgc{
+    background-color:#7AC69D;
+    width: 100%;
+    height:0.4rem;
+    position: relative;
+    clear: both;
+}
+/*.all-wrapper{*/
+    /*width: 900px;*/
+    /*border: 1px solid red;*/
+/*}*/
+
+.all-product{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.all-float{
+    font-size: 1.2rem;
+    width: 5rem;
+    height: 2.2rem;
+    float: right;
+    margin-left: 15px;
+    line-height: 1.2rem;
+}
+.all-read{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../images/read.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.all-write{
+    width: 2.2rem;
+    height: 2.2rem;
+    background-image: url("../images/write.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+.all-p{
+    height: 2.2rem;
+    line-height: 2.2rem;
+    float: left;
+    color: #696969;
+    margin-left: 5px;
+}
+
+/*--------------------------------------*/
+.all-vote{
+    width: 164px;
+    height: 46px;
+    border-radius: 3rem 3rem;
+    background-color: #7AC69D;
+    text-align: center;
+    line-height: 46px;
+    color: #ffffff;
+    margin: 0 auto;
+    /*margin-bottom: 1rem;*/
+}
+.all-swiper{
+    width: 100%;
+    height: 3.7rem;
+    background-color: #7AC69D;
+}
+.all-container {
+    width: 77%;
+    height: 3.7rem;
+    background-color: #7AC69D;
+    float: left;
+}
+.all-slide {
+    text-align: center;
+    font-size: 1.4rem;
+    color: white;
+    line-height: 3.4rem;
+    width: auto;
+    min-width: 20px;
+    background-color: #7AC69D;
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+    position: relative;
+}
+
+
+.record-margin{
+    margin-bottom: 1rem;
+}
+/* 20161130 作品列表 作品状态标识样式修改 by 文霞*/
+.record-tip{
+	height: 27px;
+    width: auto;
+    /*width: 5rem;
+    height: auto;*/
+    position: absolute;
+    right: 0;
+}
+.s-black{
+    color: #D1D1D1;
+    font-size: 1rem;
+}
+.grade-word{
+    padding-top: 1rem;
+    display: block;
+}
+
+/*
+  all_pro
+*/
+.all-shade{
+    width: 100%;
+    background-color: rgba(46, 46, 46, 0.8);
+    position: absolute;
+    display: none;
+    top:0;
+    z-index: 10;
+}
+.all-grade{
+    width: 11rem;
+    height: 28rem;
+    background-image: url("../images/allbgc.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 34;
+    left: 1.5rem;
+    top:3.7rem;
+}
+.all-loop{
+    width: 8rem;
+    height: 26rem;
+    position: relative;
+    margin: 0 auto;
+    /*left: 3px;*/
+}
+.all-active{
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 5px 5px;
+    color:#7AC69D;
+    border: 1px solid #7AC69D;
+    text-align: center;
+    line-height: 3rem;
+}
+.all-c{
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 3rem;
+}
+.grade-container {
+    position: absolute;
+    left: 0px;
+    top:8px;
+    height: 25.7rem;
+    margin: 10px auto;
+}
+.grade-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    margin-bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.grade-record{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.64);
+    position: absolute;
+    top: 36px;
+}
+.grade-sel{
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.grade-p{
+    text-align: center;
+}
+.grade-select{
+    width: 140px;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.grade-left{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.grade-inp{
+    width: 50px;
+    height: 50px;
+    background-color: #ECECEC;
+    font-size: 2rem;
+    border: none;
+}
+.grade-dotted{
+    width: 40px;
+    height: auto;
+    text-align: center;
+    font-size: 3rem;
+    float: left;
+}
+
+/*
+   record-detail css
+*/
+
+.record-content{
+    width: 100%;
+    height: auto;
+    background-color:#F4F7F8;
+    position: relative;
+}
+.record-p{
+    margin-left: 1rem;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+}
+.content .record-ul{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.content .record-ul li{
+    width: 100%;
+    border-bottom: 2px solid #F4F7F8;
+    background-color: #ffffff;
+    padding: 1rem 0;
+}
+.record-img{
+    width: 93%;
+    height: auto;
+    margin-left: 1rem;
+    overflow: hidden;
+}
+.record-icon{
+    width: 5.4rem;
+    height: 5.4rem;
+    float: left;
+
+}
+.record-pic{
+    width: 5.4rem;
+    height: 5.4rem;
+    border-radius: 7px 7px;
+}
+.record-title{
+    width: 100%;
+    float: left;
+}
+.record-msg{
+    min-width: 50px;
+    height: auto;
+    float: left;
+    margin-top: 1rem;
+    position: relative;
+    margin-left: 1rem;
+}
+.record-t{
+    margin-top: 1rem;
+    float: left;
+}
+.record-logo{
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    float: left;
+}
+.record-word{
+    min-width: 50px;
+    float: left;
+    margin-left: 1rem;
+    color:  #696969;
+    font-size: 1.2rem;
+}
+.test{
+    min-width: 40px;
+}
+
+#project_body,#project_recommend{
+	font-size: 1.4rem;
+    overflow: hidden;
+    width: 100%;
+    border:none;
+    font-family: Tahoma, Arial, STXihei, "华文细黑", Heiti, "黑体", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;
+}
+

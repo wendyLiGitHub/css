@@ -1,0 +1,31 @@
+/*css文件命名，整体网站样式，初始定义全都定义在base.css中*/
+*{margin:0;padding:0;}
+html, body {font-family: 'Microsoft YaHei';margin:0; padding:0;border:none;}
+div,p,ul,li,form,input,h1,h2,h3,h4,h5,h6,dl,dt,dd,img{padding:0; margin:0;}
+input, label{vertical-align:middle}
+ol,ul,li {list-style:none;}
+img{vertical-align:middle;border:0;display:inline-block;}
+.button{ border: none; cursor:pointer;}
+textarea{ resize:none;}
+input[type=radio],input[type=checkbox],input[type=button], label {cursor:pointer;}
+h1, h2, h3, h4, h5, h6 { font-weight:normal;}
+em{font-style:normal;}
+.c_fl{float:left;}
+.c_fr{float:right;}
+/*.clearfix {zoom:1;}*/
+.clear{ clear:both;}
+table{border:0;margin:0;border-collapse:collapse; width:100%;}
+table,td,tr,th{font-size:12px;}
+a {color:#000; text-decoration: none;}
+.hide{ display:none;}
+/*.clearfix{overflow:auto;_height:1%}*/
+
+a{ cursor: pointer;}
+a:hover,a:hover:active,a:focus{text-decoration:none;}
+
+
+
+
+
+
+
